@@ -1,0 +1,47 @@
+[global]
+rw=${RW}
+bs=${BLOCK_SIZE}
+ioengine=libaio
+iodepth=32
+numjobs=1
+direct=1
+size=5G
+runtime=60
+time_based
+per_job_logs=0
+# group_reporting
+log_avg_msec=250
+
+[SDA]
+# new_group
+directory=/mnt/sda/
+# filename=/mnt/sda/buffer
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDA
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDA
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDA
+
+[SDB]
+# new_group
+directory=/mnt/sdb/
+# filename=/mnt/sdb/buffer
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDB
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDB
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDB
+
+[SDC]
+# new_group
+directory=/mnt/sdc/
+# filename=/mnt/sdc/buffer
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDC
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDC
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDC
+
+[SDD]
+# new_group
+directory=/mnt/sdd/
+# filename=/mnt/sdd/buffer
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDD
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDD
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-SDD
+
+

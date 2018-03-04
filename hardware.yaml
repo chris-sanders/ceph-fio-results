@@ -1,0 +1,4934 @@
+ - list:
+  - lldp:lldp:
+    label: LLDP neighbors
+  - lshw:list:
+    - lshw:node:
+      id: sacred-kitten
+      claimed: true
+      class: system
+      handle: DMI:0001
+      - lshw:description:
+        System
+      - lshw:product:
+        X8DTN (1234567890)
+      - lshw:vendor:
+        Supermicro
+      - lshw:version:
+        1234567890
+      - lshw:serial:
+        1234567890
+      - lshw:width:
+        units: bits
+        64
+      - lshw:configuration:
+        - lshw:setting:
+          id: boot
+          value: normal
+        - lshw:setting:
+          id: chassis
+          value: server
+        - lshw:setting:
+          id: family
+          value: Server
+        - lshw:setting:
+          id: sku
+          value: 1234567890
+        - lshw:setting:
+          id: uuid
+          value: 58384454-544E-0030-48CD-003048CD8946
+      - lshw:capabilities:
+        - lshw:capability:
+          id: smbios-2.6
+          SMBIOS version 2.6
+        - lshw:capability:
+          id: dmi-2.6
+          DMI version 2.6
+        - lshw:capability:
+          id: vsyscall32
+          32-bit processes
+      - lshw:node:
+        id: core
+        claimed: true
+        class: bus
+        handle: DMI:0002
+        - lshw:description:
+          Motherboard
+        - lshw:product:
+          X8DTN
+        - lshw:vendor:
+          Supermicro
+        - lshw:physid:
+          0
+        - lshw:version:
+          2.0
+        - lshw:serial:
+          1234567890
+        - lshw:slot:
+          1234567890
+        - lshw:node:
+          id: firmware
+          claimed: true
+          class: memory
+          handle: 
+          - lshw:description:
+            BIOS
+          - lshw:vendor:
+            American Megatrends Inc.
+          - lshw:physid:
+            0
+          - lshw:version:
+            2.1c
+          - lshw:date:
+            10/28/2011
+          - lshw:size:
+            units: bytes
+            65536
+          - lshw:capacity:
+            units: bytes
+            4128768
+          - lshw:capabilities:
+            - lshw:capability:
+              id: isa
+              ISA bus
+            - lshw:capability:
+              id: pci
+              PCI bus
+            - lshw:capability:
+              id: pnp
+              Plug-and-Play
+            - lshw:capability:
+              id: upgrade
+              BIOS EEPROM can be upgraded
+            - lshw:capability:
+              id: shadowing
+              BIOS shadowing
+            - lshw:capability:
+              id: escd
+              ESCD
+            - lshw:capability:
+              id: cdboot
+              Booting from CD-ROM/DVD
+            - lshw:capability:
+              id: bootselect
+              Selectable boot path
+            - lshw:capability:
+              id: socketedrom
+              BIOS ROM is socketed
+            - lshw:capability:
+              id: edd
+              Enhanced Disk Drive extensions
+            - lshw:capability:
+              id: int13floppy1200
+              5.25" 1.2MB floppy
+            - lshw:capability:
+              id: int13floppy720
+              3.5" 720KB floppy
+            - lshw:capability:
+              id: int13floppy2880
+              3.5" 2.88MB floppy
+            - lshw:capability:
+              id: int5printscreen
+              Print Screen key
+            - lshw:capability:
+              id: int9keyboard
+              i8042 keyboard controller
+            - lshw:capability:
+              id: int14serial
+              INT14 serial line control
+            - lshw:capability:
+              id: int17printer
+              INT17 printer control
+            - lshw:capability:
+              id: int10video
+              INT10 CGA/Mono video
+            - lshw:capability:
+              id: acpi
+              ACPI
+            - lshw:capability:
+              id: usb
+              USB legacy emulation
+            - lshw:capability:
+              id: ls120boot
+              Booting from LS-120
+            - lshw:capability:
+              id: zipboot
+              Booting from ATAPI ZIP
+            - lshw:capability:
+              id: biosbootspecification
+              BIOS boot specification
+        - lshw:node:
+          id: cpu:0
+          claimed: true
+          class: processor
+          handle: DMI:0004
+          - lshw:description:
+            CPU
+          - lshw:product:
+            Intel(R) Xeon(R) CPU           L5640  @ 2.27GHz
+          - lshw:vendor:
+            Intel Corp.
+          - lshw:physid:
+            4
+          - lshw:businfo:
+            cpu@0
+          - lshw:version:
+            Intel(R) Xeon(R) CPU           L5640  @ 2.27GHz
+          - lshw:serial:
+            To Be Filled By O.E.M.
+          - lshw:slot:
+            CPU 1
+          - lshw:size:
+            units: Hz
+            1599243000
+          - lshw:capacity:
+            units: Hz
+            2267000000
+          - lshw:width:
+            units: bits
+            64
+          - lshw:clock:
+            units: Hz
+            133000000
+          - lshw:configuration:
+            - lshw:setting:
+              id: cores
+              value: 6
+            - lshw:setting:
+              id: enabledcores
+              value: 6
+            - lshw:setting:
+              id: threads
+              value: 12
+          - lshw:capabilities:
+            - lshw:capability:
+              id: x86-64
+              64bits extensions (x86-64)
+            - lshw:capability:
+              id: fpu
+              mathematical co-processor
+            - lshw:capability:
+              id: fpu_exception
+              FPU exceptions reporting
+            - lshw:capability:
+              id: wp
+            - lshw:capability:
+              id: vme
+              virtual mode extensions
+            - lshw:capability:
+              id: de
+              debugging extensions
+            - lshw:capability:
+              id: pse
+              page size extensions
+            - lshw:capability:
+              id: tsc
+              time stamp counter
+            - lshw:capability:
+              id: msr
+              model-specific registers
+            - lshw:capability:
+              id: pae
+              4GB+ memory addressing (Physical Address Extension)
+            - lshw:capability:
+              id: mce
+              machine check exceptions
+            - lshw:capability:
+              id: cx8
+              compare and exchange 8-byte
+            - lshw:capability:
+              id: apic
+              on-chip advanced programmable interrupt controller (APIC)
+            - lshw:capability:
+              id: sep
+              fast system calls
+            - lshw:capability:
+              id: mtrr
+              memory type range registers
+            - lshw:capability:
+              id: pge
+              page global enable
+            - lshw:capability:
+              id: mca
+              machine check architecture
+            - lshw:capability:
+              id: cmov
+              conditional move instruction
+            - lshw:capability:
+              id: pat
+              page attribute table
+            - lshw:capability:
+              id: pse36
+              36-bit page size extensions
+            - lshw:capability:
+              id: clflush
+            - lshw:capability:
+              id: dts
+              debug trace and EMON store MSRs
+            - lshw:capability:
+              id: acpi
+              thermal control (ACPI)
+            - lshw:capability:
+              id: mmx
+              multimedia extensions (MMX)
+            - lshw:capability:
+              id: fxsr
+              fast floating point save/restore
+            - lshw:capability:
+              id: sse
+              streaming SIMD extensions (SSE)
+            - lshw:capability:
+              id: sse2
+              streaming SIMD extensions (SSE2)
+            - lshw:capability:
+              id: ss
+              self-snoop
+            - lshw:capability:
+              id: ht
+              HyperThreading
+            - lshw:capability:
+              id: tm
+              thermal interrupt and status
+            - lshw:capability:
+              id: pbe
+              pending break event
+            - lshw:capability:
+              id: syscall
+              fast system calls
+            - lshw:capability:
+              id: nx
+              no-execute bit (NX)
+            - lshw:capability:
+              id: pdpe1gb
+            - lshw:capability:
+              id: rdtscp
+            - lshw:capability:
+              id: constant_tsc
+            - lshw:capability:
+              id: arch_perfmon
+            - lshw:capability:
+              id: pebs
+            - lshw:capability:
+              id: bts
+            - lshw:capability:
+              id: rep_good
+            - lshw:capability:
+              id: nopl
+            - lshw:capability:
+              id: xtopology
+            - lshw:capability:
+              id: nonstop_tsc
+            - lshw:capability:
+              id: cpuid
+            - lshw:capability:
+              id: aperfmperf
+            - lshw:capability:
+              id: pni
+            - lshw:capability:
+              id: dtes64
+            - lshw:capability:
+              id: monitor
+            - lshw:capability:
+              id: ds_cpl
+            - lshw:capability:
+              id: vmx
+            - lshw:capability:
+              id: smx
+            - lshw:capability:
+              id: est
+            - lshw:capability:
+              id: tm2
+            - lshw:capability:
+              id: ssse3
+            - lshw:capability:
+              id: cx16
+            - lshw:capability:
+              id: xtpr
+            - lshw:capability:
+              id: pdcm
+            - lshw:capability:
+              id: pcid
+            - lshw:capability:
+              id: dca
+            - lshw:capability:
+              id: sse4_1
+            - lshw:capability:
+              id: sse4_2
+            - lshw:capability:
+              id: popcnt
+            - lshw:capability:
+              id: lahf_lm
+            - lshw:capability:
+              id: epb
+            - lshw:capability:
+              id: pti
+            - lshw:capability:
+              id: retpoline
+            - lshw:capability:
+              id: tpr_shadow
+            - lshw:capability:
+              id: vnmi
+            - lshw:capability:
+              id: flexpriority
+            - lshw:capability:
+              id: ept
+            - lshw:capability:
+              id: vpid
+            - lshw:capability:
+              id: dtherm
+            - lshw:capability:
+              id: ida
+            - lshw:capability:
+              id: arat
+            - lshw:capability:
+              id: cpufreq
+              CPU Frequency scaling
+          - lshw:node:
+            id: cache:0
+            claimed: true
+            class: memory
+            handle: DMI:0005
+            - lshw:description:
+              L1 cache
+            - lshw:physid:
+              5
+            - lshw:slot:
+              L1-Cache
+            - lshw:size:
+              units: bytes
+              393216
+            - lshw:capacity:
+              units: bytes
+              393216
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 1
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-through
+                Write-trough
+              - lshw:capability:
+                id: instruction
+                Instruction cache
+          - lshw:node:
+            id: cache:1
+            claimed: true
+            class: memory
+            handle: DMI:0006
+            - lshw:description:
+              L2 cache
+            - lshw:physid:
+              6
+            - lshw:slot:
+              L2-Cache
+            - lshw:size:
+              units: bytes
+              1572864
+            - lshw:capacity:
+              units: bytes
+              1572864
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 2
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-through
+                Write-trough
+              - lshw:capability:
+                id: unified
+                Unified cache
+          - lshw:node:
+            id: cache:2
+            claimed: true
+            class: memory
+            handle: DMI:0007
+            - lshw:description:
+              L3 cache
+            - lshw:physid:
+              7
+            - lshw:slot:
+              L3-Cache
+            - lshw:size:
+              units: bytes
+              12582912
+            - lshw:capacity:
+              units: bytes
+              12582912
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 3
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-back
+                Write-back
+              - lshw:capability:
+                id: unified
+                Unified cache
+        - lshw:node:
+          id: cpu:1
+          claimed: true
+          class: processor
+          handle: DMI:0008
+          - lshw:description:
+            CPU
+          - lshw:product:
+            Intel(R) Xeon(R) CPU           L5640  @ 2.27GHz
+          - lshw:vendor:
+            Intel Corp.
+          - lshw:physid:
+            8
+          - lshw:businfo:
+            cpu@1
+          - lshw:version:
+            Intel(R) Xeon(R) CPU           L5640  @ 2.27GHz
+          - lshw:serial:
+            To Be Filled By O.E.M.
+          - lshw:slot:
+            CPU 2
+          - lshw:size:
+            units: Hz
+            1600419000
+          - lshw:capacity:
+            units: Hz
+            2267000000
+          - lshw:width:
+            units: bits
+            64
+          - lshw:clock:
+            units: Hz
+            133000000
+          - lshw:configuration:
+            - lshw:setting:
+              id: cores
+              value: 6
+            - lshw:setting:
+              id: enabledcores
+              value: 6
+            - lshw:setting:
+              id: threads
+              value: 12
+          - lshw:capabilities:
+            - lshw:capability:
+              id: x86-64
+              64bits extensions (x86-64)
+            - lshw:capability:
+              id: fpu
+              mathematical co-processor
+            - lshw:capability:
+              id: fpu_exception
+              FPU exceptions reporting
+            - lshw:capability:
+              id: wp
+            - lshw:capability:
+              id: vme
+              virtual mode extensions
+            - lshw:capability:
+              id: de
+              debugging extensions
+            - lshw:capability:
+              id: pse
+              page size extensions
+            - lshw:capability:
+              id: tsc
+              time stamp counter
+            - lshw:capability:
+              id: msr
+              model-specific registers
+            - lshw:capability:
+              id: pae
+              4GB+ memory addressing (Physical Address Extension)
+            - lshw:capability:
+              id: mce
+              machine check exceptions
+            - lshw:capability:
+              id: cx8
+              compare and exchange 8-byte
+            - lshw:capability:
+              id: apic
+              on-chip advanced programmable interrupt controller (APIC)
+            - lshw:capability:
+              id: sep
+              fast system calls
+            - lshw:capability:
+              id: mtrr
+              memory type range registers
+            - lshw:capability:
+              id: pge
+              page global enable
+            - lshw:capability:
+              id: mca
+              machine check architecture
+            - lshw:capability:
+              id: cmov
+              conditional move instruction
+            - lshw:capability:
+              id: pat
+              page attribute table
+            - lshw:capability:
+              id: pse36
+              36-bit page size extensions
+            - lshw:capability:
+              id: clflush
+            - lshw:capability:
+              id: dts
+              debug trace and EMON store MSRs
+            - lshw:capability:
+              id: acpi
+              thermal control (ACPI)
+            - lshw:capability:
+              id: mmx
+              multimedia extensions (MMX)
+            - lshw:capability:
+              id: fxsr
+              fast floating point save/restore
+            - lshw:capability:
+              id: sse
+              streaming SIMD extensions (SSE)
+            - lshw:capability:
+              id: sse2
+              streaming SIMD extensions (SSE2)
+            - lshw:capability:
+              id: ss
+              self-snoop
+            - lshw:capability:
+              id: ht
+              HyperThreading
+            - lshw:capability:
+              id: tm
+              thermal interrupt and status
+            - lshw:capability:
+              id: pbe
+              pending break event
+            - lshw:capability:
+              id: syscall
+              fast system calls
+            - lshw:capability:
+              id: nx
+              no-execute bit (NX)
+            - lshw:capability:
+              id: pdpe1gb
+            - lshw:capability:
+              id: rdtscp
+            - lshw:capability:
+              id: constant_tsc
+            - lshw:capability:
+              id: arch_perfmon
+            - lshw:capability:
+              id: pebs
+            - lshw:capability:
+              id: bts
+            - lshw:capability:
+              id: rep_good
+            - lshw:capability:
+              id: nopl
+            - lshw:capability:
+              id: xtopology
+            - lshw:capability:
+              id: nonstop_tsc
+            - lshw:capability:
+              id: cpuid
+            - lshw:capability:
+              id: aperfmperf
+            - lshw:capability:
+              id: pni
+            - lshw:capability:
+              id: dtes64
+            - lshw:capability:
+              id: monitor
+            - lshw:capability:
+              id: ds_cpl
+            - lshw:capability:
+              id: vmx
+            - lshw:capability:
+              id: smx
+            - lshw:capability:
+              id: est
+            - lshw:capability:
+              id: tm2
+            - lshw:capability:
+              id: ssse3
+            - lshw:capability:
+              id: cx16
+            - lshw:capability:
+              id: xtpr
+            - lshw:capability:
+              id: pdcm
+            - lshw:capability:
+              id: pcid
+            - lshw:capability:
+              id: dca
+            - lshw:capability:
+              id: sse4_1
+            - lshw:capability:
+              id: sse4_2
+            - lshw:capability:
+              id: popcnt
+            - lshw:capability:
+              id: lahf_lm
+            - lshw:capability:
+              id: epb
+            - lshw:capability:
+              id: pti
+            - lshw:capability:
+              id: retpoline
+            - lshw:capability:
+              id: tpr_shadow
+            - lshw:capability:
+              id: vnmi
+            - lshw:capability:
+              id: flexpriority
+            - lshw:capability:
+              id: ept
+            - lshw:capability:
+              id: vpid
+            - lshw:capability:
+              id: dtherm
+            - lshw:capability:
+              id: ida
+            - lshw:capability:
+              id: arat
+            - lshw:capability:
+              id: cpufreq
+              CPU Frequency scaling
+          - lshw:node:
+            id: cache:0
+            claimed: true
+            class: memory
+            handle: DMI:0009
+            - lshw:description:
+              L1 cache
+            - lshw:physid:
+              9
+            - lshw:slot:
+              L1-Cache
+            - lshw:size:
+              units: bytes
+              393216
+            - lshw:capacity:
+              units: bytes
+              393216
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 1
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-through
+                Write-trough
+              - lshw:capability:
+                id: instruction
+                Instruction cache
+          - lshw:node:
+            id: cache:1
+            claimed: true
+            class: memory
+            handle: DMI:000A
+            - lshw:description:
+              L2 cache
+            - lshw:physid:
+              a
+            - lshw:slot:
+              L2-Cache
+            - lshw:size:
+              units: bytes
+              1572864
+            - lshw:capacity:
+              units: bytes
+              1572864
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 2
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-through
+                Write-trough
+              - lshw:capability:
+                id: unified
+                Unified cache
+          - lshw:node:
+            id: cache:2
+            claimed: true
+            class: memory
+            handle: DMI:000B
+            - lshw:description:
+              L3 cache
+            - lshw:physid:
+              b
+            - lshw:slot:
+              L3-Cache
+            - lshw:size:
+              units: bytes
+              12582912
+            - lshw:capacity:
+              units: bytes
+              12582912
+            - lshw:configuration:
+              - lshw:setting:
+                id: level
+                value: 3
+            - lshw:capabilities:
+              - lshw:capability:
+                id: internal
+                Internal
+              - lshw:capability:
+                id: write-back
+                Write-back
+              - lshw:capability:
+                id: unified
+                Unified cache
+        - lshw:node:
+          id: memory
+          claimed: true
+          class: memory
+          handle: DMI:0015
+          - lshw:description:
+            System Memory
+          - lshw:physid:
+            15
+          - lshw:slot:
+            System board or motherboard
+          - lshw:size:
+            units: bytes
+            154618822656
+          - lshw:node:
+            id: bank:0
+            claimed: true
+            class: memory
+            handle: DMI:0017
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              0
+            - lshw:serial:
+              A6E84ED9
+            - lshw:slot:
+              P1-DIMM1A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:1
+            claimed: true
+            class: memory
+            handle: DMI:0019
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              1
+            - lshw:serial:
+              69EC62DB
+            - lshw:slot:
+              P1-DIMM1B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:2
+            claimed: true
+            class: memory
+            handle: DMI:001B
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              2
+            - lshw:serial:
+              4F410F39
+            - lshw:slot:
+              P1-DIMM1C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:3
+            claimed: true
+            class: memory
+            handle: DMI:001D
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              3
+            - lshw:serial:
+              B24169DF
+            - lshw:slot:
+              P1-DIMM2A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:4
+            claimed: true
+            class: memory
+            handle: DMI:001F
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              4
+            - lshw:serial:
+              F5A95EDB
+            - lshw:slot:
+              P1-DIMM2B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:5
+            claimed: true
+            class: memory
+            handle: DMI:0021
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              5
+            - lshw:serial:
+              9CEB6BD7
+            - lshw:slot:
+              P1-DIMM2C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:6
+            claimed: true
+            class: memory
+            handle: DMI:0023
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              6
+            - lshw:serial:
+              56EB62DB
+            - lshw:slot:
+              P1-DIMM3A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:7
+            claimed: true
+            class: memory
+            handle: DMI:0025
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              7
+            - lshw:serial:
+              A2EB6BD7
+            - lshw:slot:
+              P1-DIMM3B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:8
+            claimed: true
+            class: memory
+            handle: DMI:0027
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              8
+            - lshw:serial:
+              FB3F69DF
+            - lshw:slot:
+              P1-DIMM3C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:9
+            claimed: true
+            class: memory
+            handle: DMI:0029
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              9
+            - lshw:serial:
+              50410F39
+            - lshw:slot:
+              P2-DIMM1A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:10
+            claimed: true
+            class: memory
+            handle: DMI:002B
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              a
+            - lshw:serial:
+              4BEB79DF
+            - lshw:slot:
+              P2-DIMM1B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:11
+            claimed: true
+            class: memory
+            handle: DMI:002D
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              b
+            - lshw:serial:
+              0EC166D7
+            - lshw:slot:
+              P2-DIMM1C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:12
+            claimed: true
+            class: memory
+            handle: DMI:002F
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              c
+            - lshw:serial:
+              F2400F39
+            - lshw:slot:
+              P2-DIMM2A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:13
+            claimed: true
+            class: memory
+            handle: DMI:0031
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              d
+            - lshw:serial:
+              96EB6BD7
+            - lshw:slot:
+              P2-DIMM2B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:14
+            claimed: true
+            class: memory
+            handle: DMI:0033
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              e
+            - lshw:serial:
+              5AEC62DB
+            - lshw:slot:
+              P2-DIMM2C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:15
+            claimed: true
+            class: memory
+            handle: DMI:0035
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              f
+            - lshw:serial:
+              6AEC62DB
+            - lshw:slot:
+              P2-DIMM3A
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:16
+            claimed: true
+            class: memory
+            handle: DMI:0037
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              10
+            - lshw:serial:
+              8FEB62DB
+            - lshw:slot:
+              P2-DIMM3B
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+          - lshw:node:
+            id: bank:17
+            claimed: true
+            class: memory
+            handle: DMI:0039
+            - lshw:description:
+              DIMM DDR3 800 MHz (1.2 ns)
+            - lshw:product:
+              36JSZF1G72PZ-1G4D1
+            - lshw:vendor:
+              Micron
+            - lshw:physid:
+              11
+            - lshw:serial:
+              A8E84ED9
+            - lshw:slot:
+              P2-DIMM3C
+            - lshw:size:
+              units: bytes
+              8589934592
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              800000000
+        - lshw:node:
+          id: pci:0
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:00
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            5520 I/O Hub to ESI Port
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            100
+          - lshw:businfo:
+            pci@0000:00:00.0
+          - lshw:version:
+            22
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+          - lshw:node:
+            id: pci:0
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:0a
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              5520/5500/X58 I/O Hub PCI Express Root Port 1
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1
+            - lshw:businfo:
+              pci@0000:00:01.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 24
+              - lshw:resource:
+                type: ioport
+                value: e000(size=4096)
+              - lshw:resource:
+                type: memory
+                value: c0400000-c05fffff
+            - lshw:node:
+              id: network:0
+              claimed: true
+              class: network
+              handle: PCI:0000:0a:00.0
+              - lshw:description:
+                Ethernet interface
+              - lshw:product:
+                82576 Gigabit Network Connection
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0
+              - lshw:businfo:
+                pci@0000:0a:00.0
+              - lshw:logicalname:
+                enp10s0f0
+              - lshw:version:
+                01
+              - lshw:serial:
+                00:30:48:cd:89:46
+              - lshw:size:
+                units: bit/s
+                1000000000
+              - lshw:capacity:
+                1000000000
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: autonegotiation
+                  value: on
+                - lshw:setting:
+                  id: broadcast
+                  value: yes
+                - lshw:setting:
+                  id: driver
+                  value: igb
+                - lshw:setting:
+                  id: driverversion
+                  value: 5.4.0-k
+                - lshw:setting:
+                  id: duplex
+                  value: full
+                - lshw:setting:
+                  id: firmware
+                  value: 1.2.3
+                - lshw:setting:
+                  id: ip
+                  value: 192.168.1.212
+                - lshw:setting:
+                  id: latency
+                  value: 0
+                - lshw:setting:
+                  id: link
+                  value: yes
+                - lshw:setting:
+                  id: multicast
+                  value: yes
+                - lshw:setting:
+                  id: port
+                  value: twisted pair
+                - lshw:setting:
+                  id: speed
+                  value: 1Gbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: msix
+                  MSI-X
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+                - lshw:capability:
+                  id: rom
+                  extension ROM
+                - lshw:capability:
+                  id: ethernet
+                - lshw:capability:
+                  id: physical
+                  Physical interface
+                - lshw:capability:
+                  id: tp
+                  twisted pair
+                - lshw:capability:
+                  id: 10bt
+                  10Mbit/s
+                - lshw:capability:
+                  id: 10bt-fd
+                  10Mbit/s (full duplex)
+                - lshw:capability:
+                  id: 100bt
+                  100Mbit/s
+                - lshw:capability:
+                  id: 100bt-fd
+                  100Mbit/s (full duplex)
+                - lshw:capability:
+                  id: 1000bt-fd
+                  1Gbit/s (full duplex)
+                - lshw:capability:
+                  id: autonegotiation
+                  Auto-negotiation
+              - lshw:resources:
+                - lshw:resource:
+                  type: irq
+                  value: 31
+                - lshw:resource:
+                  type: memory
+                  value: c0400000-c041ffff
+                - lshw:resource:
+                  type: memory
+                  value: c0420000-c043ffff
+                - lshw:resource:
+                  type: ioport
+                  value: e880(size=32)
+                - lshw:resource:
+                  type: memory
+                  value: c04c0000-c04c3fff
+                - lshw:resource:
+                  type: memory
+                  value: c0440000-c045ffff
+                - lshw:resource:
+                  type: memory
+                  value: c04c4000-c04e3fff
+                - lshw:resource:
+                  type: memory
+                  value: c04e4000-c0503fff
+            - lshw:node:
+              id: network:1
+              disabled: true
+              claimed: true
+              class: network
+              handle: PCI:0000:0a:00.1
+              - lshw:description:
+                Ethernet interface
+              - lshw:product:
+                82576 Gigabit Network Connection
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0.1
+              - lshw:businfo:
+                pci@0000:0a:00.1
+              - lshw:logicalname:
+                enp10s0f1
+              - lshw:version:
+                01
+              - lshw:serial:
+                00:30:48:cd:89:47
+              - lshw:capacity:
+                1000000000
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: autonegotiation
+                  value: on
+                - lshw:setting:
+                  id: broadcast
+                  value: yes
+                - lshw:setting:
+                  id: driver
+                  value: igb
+                - lshw:setting:
+                  id: driverversion
+                  value: 5.4.0-k
+                - lshw:setting:
+                  id: firmware
+                  value: 1.2.3
+                - lshw:setting:
+                  id: latency
+                  value: 0
+                - lshw:setting:
+                  id: link
+                  value: no
+                - lshw:setting:
+                  id: multicast
+                  value: yes
+                - lshw:setting:
+                  id: port
+                  value: twisted pair
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: msix
+                  MSI-X
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+                - lshw:capability:
+                  id: rom
+                  extension ROM
+                - lshw:capability:
+                  id: ethernet
+                - lshw:capability:
+                  id: physical
+                  Physical interface
+                - lshw:capability:
+                  id: tp
+                  twisted pair
+                - lshw:capability:
+                  id: 10bt
+                  10Mbit/s
+                - lshw:capability:
+                  id: 10bt-fd
+                  10Mbit/s (full duplex)
+                - lshw:capability:
+                  id: 100bt
+                  100Mbit/s
+                - lshw:capability:
+                  id: 100bt-fd
+                  100Mbit/s (full duplex)
+                - lshw:capability:
+                  id: 1000bt-fd
+                  1Gbit/s (full duplex)
+                - lshw:capability:
+                  id: autonegotiation
+                  Auto-negotiation
+              - lshw:resources:
+                - lshw:resource:
+                  type: irq
+                  value: 41
+                - lshw:resource:
+                  type: memory
+                  value: c0460000-c047ffff
+                - lshw:resource:
+                  type: memory
+                  value: c0480000-c049ffff
+                - lshw:resource:
+                  type: ioport
+                  value: ec00(size=32)
+                - lshw:resource:
+                  type: memory
+                  value: c0504000-c0507fff
+                - lshw:resource:
+                  type: memory
+                  value: c04a0000-c04bffff
+                - lshw:resource:
+                  type: memory
+                  value: c0508000-c0527fff
+                - lshw:resource:
+                  type: memory
+                  value: c0528000-c0547fff
+          - lshw:node:
+            id: pci:1
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:09
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              5520/5500/X58 I/O Hub PCI Express Root Port 3
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              3
+            - lshw:businfo:
+              pci@0000:00:03.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 25
+          - lshw:node:
+            id: pci:2
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:08
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              5520/X58 I/O Hub PCI Express Root Port 5
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              5
+            - lshw:businfo:
+              pci@0000:00:05.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 26
+          - lshw:node:
+            id: pci:3
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:07
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              5520/5500/X58 I/O Hub PCI Express Root Port 7
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              7
+            - lshw:businfo:
+              pci@0000:00:07.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 27
+          - lshw:node:
+            id: pci:4
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:04
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub PCI Express Root Port 9
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              9
+            - lshw:businfo:
+              pci@0000:00:09.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 28
+              - lshw:resource:
+                type: memory
+                value: fbd00000-fbdfffff
+            - lshw:node:
+              id: pci:0
+              claimed: true
+              class: bridge
+              handle: PCIBUS:0000:06
+              - lshw:description:
+                PCI bridge
+              - lshw:product:
+                6700PXH PCI Express-to-PCI Bridge A
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0
+              - lshw:businfo:
+                pci@0000:04:00.0
+              - lshw:version:
+                09
+              - lshw:width:
+                units: bits
+                64
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pci
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: pcix
+                  PCI-X
+                - lshw:capability:
+                  id: normal_decode
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+              - lshw:resources:
+                - lshw:resource:
+                  type: iomemory
+                  value: 22a000f00-22a000eff
+            - lshw:node:
+              id: generic:0
+              class: generic
+              handle: PCI:0000:04:00.1
+              - lshw:description:
+                PIC
+              - lshw:product:
+                6700/6702PXH I/OxAPIC Interrupt Controller A
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0.1
+              - lshw:businfo:
+                pci@0000:04:00.1
+              - lshw:version:
+                09
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: latency
+                  value: 0
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: io_x_-apic
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+              - lshw:resources:
+                - lshw:resource:
+                  type: memory
+                  value: fbdfc000-fbdfcfff
+            - lshw:node:
+              id: pci:1
+              claimed: true
+              class: bridge
+              handle: PCIBUS:0000:05
+              - lshw:description:
+                PCI bridge
+              - lshw:product:
+                6700PXH PCI Express-to-PCI Bridge B
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0.2
+              - lshw:businfo:
+                pci@0000:04:00.2
+              - lshw:version:
+                09
+              - lshw:width:
+                units: bits
+                64
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pci
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: pcix
+                  PCI-X
+                - lshw:capability:
+                  id: normal_decode
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+              - lshw:resources:
+                - lshw:resource:
+                  type: iomemory
+                  value: 22a000f00-22a000eff
+            - lshw:node:
+              id: generic:1
+              class: generic
+              handle: PCI:0000:04:00.3
+              - lshw:description:
+                PIC
+              - lshw:product:
+                6700PXH I/OxAPIC Interrupt Controller B
+              - lshw:vendor:
+                Intel Corporation
+              - lshw:physid:
+                0.3
+              - lshw:businfo:
+                pci@0000:04:00.3
+              - lshw:version:
+                09
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: latency
+                  value: 0
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: io_x_-apic
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+              - lshw:resources:
+                - lshw:resource:
+                  type: memory
+                  value: fbdfe000-fbdfefff
+          - lshw:node:
+            id: generic:0
+            class: generic
+            handle: PCI:0000:00:13.0
+            - lshw:description:
+              PIC
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub I/OxAPIC Interrupt Controller
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              13
+            - lshw:businfo:
+              pci@0000:00:13.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: io_x_-apic
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fec8a000-fec8afff
+          - lshw:node:
+            id: generic:1
+            class: generic
+            handle: PCI:0000:00:14.0
+            - lshw:description:
+              PIC
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub System Management Registers
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              14
+            - lshw:businfo:
+              pci@0000:00:14.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: 8259
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+          - lshw:node:
+            id: generic:2
+            class: generic
+            handle: PCI:0000:00:14.1
+            - lshw:description:
+              PIC
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub GPIO and Scratch Pad Registers
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              14.1
+            - lshw:businfo:
+              pci@0000:00:14.1
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: 8259
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+          - lshw:node:
+            id: generic:3
+            class: generic
+            handle: PCI:0000:00:14.2
+            - lshw:description:
+              PIC
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub Control Status and RAS Registers
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              14.2
+            - lshw:businfo:
+              pci@0000:00:14.2
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: 8259
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+          - lshw:node:
+            id: generic:4
+            class: generic
+            handle: PCI:0000:00:14.3
+            - lshw:description:
+              PIC
+            - lshw:product:
+              7500/5520/5500/X58 I/O Hub Throttle Registers
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              14.3
+            - lshw:businfo:
+              pci@0000:00:14.3
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: 8259
+          - lshw:node:
+            id: generic:5
+            class: generic
+            handle: PCI:0000:00:16.0
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16
+            - lshw:businfo:
+              pci@0000:00:16.0
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcd8000-fbcdbfff
+          - lshw:node:
+            id: generic:6
+            class: generic
+            handle: PCI:0000:00:16.1
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.1
+            - lshw:businfo:
+              pci@0000:00:16.1
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcdc000-fbcdffff
+          - lshw:node:
+            id: generic:7
+            class: generic
+            handle: PCI:0000:00:16.2
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.2
+            - lshw:businfo:
+              pci@0000:00:16.2
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbce0000-fbce3fff
+          - lshw:node:
+            id: generic:8
+            class: generic
+            handle: PCI:0000:00:16.3
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.3
+            - lshw:businfo:
+              pci@0000:00:16.3
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbce4000-fbce7fff
+          - lshw:node:
+            id: generic:9
+            class: generic
+            handle: PCI:0000:00:16.4
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.4
+            - lshw:businfo:
+              pci@0000:00:16.4
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbce8000-fbcebfff
+          - lshw:node:
+            id: generic:10
+            class: generic
+            handle: PCI:0000:00:16.5
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.5
+            - lshw:businfo:
+              pci@0000:00:16.5
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcec000-fbceffff
+          - lshw:node:
+            id: generic:11
+            class: generic
+            handle: PCI:0000:00:16.6
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.6
+            - lshw:businfo:
+              pci@0000:00:16.6
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcf0000-fbcf3fff
+          - lshw:node:
+            id: generic:12
+            class: generic
+            handle: PCI:0000:00:16.7
+            - lshw:description:
+              System peripheral
+            - lshw:product:
+              5520/5500/X58 Chipset QuickData Technology Device
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              16.7
+            - lshw:businfo:
+              pci@0000:00:16.7
+            - lshw:version:
+              22
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: msix
+                MSI-X
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcf4000-fbcf7fff
+          - lshw:node:
+            id: usb:0
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1a.0
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #4
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1a
+            - lshw:businfo:
+              pci@0000:00:1a.0
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 16
+              - lshw:resource:
+                type: ioport
+                value: b000(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:3:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@3
+              - lshw:logicalname:
+                usb3
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:1
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1a.1
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #5
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1a.1
+            - lshw:businfo:
+              pci@0000:00:1a.1
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 21
+              - lshw:resource:
+                type: ioport
+                value: b080(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:4:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@4
+              - lshw:logicalname:
+                usb4
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:2
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1a.2
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #6
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1a.2
+            - lshw:businfo:
+              pci@0000:00:1a.2
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 19
+              - lshw:resource:
+                type: ioport
+                value: b400(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:5:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@5
+              - lshw:logicalname:
+                usb5
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:3
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1a.7
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB2 EHCI Controller #2
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1a.7
+            - lshw:businfo:
+              pci@0000:00:1a.7
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: ehci-pci
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: debug
+                Debug port
+              - lshw:capability:
+                id: ehci
+                Enhanced Host Controller Interface (USB2)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 18
+              - lshw:resource:
+                type: memory
+                value: fbcfa000-fbcfa3ff
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:1:1
+              - lshw:product:
+                EHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic ehci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@1
+              - lshw:logicalname:
+                usb1
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 6
+                - lshw:setting:
+                  id: speed
+                  value: 480Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-2.00
+                  USB 2.0
+              - lshw:node:
+                id: usb
+                claimed: true
+                class: input
+                handle: USB:1:2
+                - lshw:description:
+                  Mouse
+                - lshw:product:
+                  Multidevice
+                - lshw:vendor:
+                  Peppercon AG
+                - lshw:physid:
+                  5
+                - lshw:businfo:
+                  usb@1:5
+                - lshw:version:
+                  0.01
+                - lshw:serial:
+                  0d469201b946b4c9611C11C62A54F306
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: driver
+                    value: usbhid
+                  - lshw:setting:
+                    id: maxpower
+                    value: 100mA
+                  - lshw:setting:
+                    id: speed
+                    value: 480Mbit/s
+                - lshw:capabilities:
+                  - lshw:capability:
+                    id: usb-2.00
+                    USB 2.0
+          - lshw:node:
+            id: pci:5
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:03
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              82801JI (ICH10 Family) PCI Express Root Port 1
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1c
+            - lshw:businfo:
+              pci@0000:00:1c.0
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 29
+              - lshw:resource:
+                type: ioport
+                value: 1000(size=4096)
+              - lshw:resource:
+                type: memory
+                value: fb900000-fbbfffff
+              - lshw:resource:
+                type: ioport
+                value: c0000000(size=2097152)
+            - lshw:node:
+              id: storage
+              claimed: true
+              class: storage
+              handle: PCI:0000:03:00.0
+              - lshw:description:
+                RAID bus controller
+              - lshw:product:
+                AAC-RAID
+              - lshw:vendor:
+                Adaptec
+              - lshw:physid:
+                0
+              - lshw:businfo:
+                pci@0000:03:00.0
+              - lshw:logicalname:
+                scsi2
+              - lshw:version:
+                09
+              - lshw:width:
+                units: bits
+                64
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: aacraid
+                - lshw:setting:
+                  id: latency
+                  value: 0
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: storage
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: vpd
+                  Vital Product Data
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+                - lshw:capability:
+                  id: rom
+                  extension ROM
+                - lshw:capability:
+                  id: emulated
+                  Emulated device
+              - lshw:resources:
+                - lshw:resource:
+                  type: irq
+                  value: 16
+                - lshw:resource:
+                  type: memory
+                  value: fba00000-fbbfffff
+                - lshw:resource:
+                  type: memory
+                  value: fb980000-fb9fffff
+              - lshw:node:
+                id: disk:0
+                claimed: true
+                class: disk
+                handle: SCSI:02:00:00:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  0.0.0
+                - lshw:businfo:
+                  scsi@2:0.0.0
+                - lshw:logicalname:
+                  /dev/sda
+                - lshw:dev:
+                  8:0
+                - lshw:size:
+                  units: bytes
+                  3999677808640
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: logicalsectorsize
+                    value: 512
+                  - lshw:setting:
+                    id: sectorsize
+                    value: 512
+              - lshw:node:
+                id: disk:1
+                claimed: true
+                class: disk
+                handle: SCSI:02:00:01:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  0.1.0
+                - lshw:businfo:
+                  scsi@2:0.1.0
+                - lshw:logicalname:
+                  /dev/sdb
+                - lshw:dev:
+                  8:16
+                - lshw:size:
+                  units: bytes
+                  3999677808640
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: logicalsectorsize
+                    value: 512
+                  - lshw:setting:
+                    id: sectorsize
+                    value: 512
+              - lshw:node:
+                id: disk:2
+                claimed: true
+                class: disk
+                handle: SCSI:02:00:02:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  0.2.0
+                - lshw:businfo:
+                  scsi@2:0.2.0
+                - lshw:logicalname:
+                  /dev/sdc
+                - lshw:dev:
+                  8:32
+                - lshw:size:
+                  units: bytes
+                  639939641344
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: logicalsectorsize
+                    value: 512
+                  - lshw:setting:
+                    id: sectorsize
+                    value: 512
+              - lshw:node:
+                id: disk:3
+                claimed: true
+                class: disk
+                handle: SCSI:02:00:03:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  0.3.0
+                - lshw:businfo:
+                  scsi@2:0.3.0
+                - lshw:logicalname:
+                  /dev/sdd
+                - lshw:dev:
+                  8:48
+                - lshw:size:
+                  units: bytes
+                  399421472768
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: logicalsectorsize
+                    value: 512
+                  - lshw:setting:
+                    id: sectorsize
+                    value: 512
+              - lshw:node:
+                id: disk:4
+                class: disk
+                handle: SCSI:02:01:08:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  1.8.0
+                - lshw:businfo:
+                  scsi@2:1.8.0
+              - lshw:node:
+                id: disk:5
+                class: disk
+                handle: SCSI:02:01:09:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  1.9.0
+                - lshw:businfo:
+                  scsi@2:1.9.0
+              - lshw:node:
+                id: disk:6
+                class: disk
+                handle: SCSI:02:01:10:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  1.a.0
+                - lshw:businfo:
+                  scsi@2:1.10.0
+              - lshw:node:
+                id: disk:7
+                class: disk
+                handle: SCSI:02:01:13:00
+                - lshw:description:
+                  SCSI Disk
+                - lshw:physid:
+                  1.d.0
+                - lshw:businfo:
+                  scsi@2:1.13.0
+              - lshw:node:
+                id: enclosure
+                class: generic
+                handle: SCSI:02:03:00:00
+                - lshw:description:
+                  SCSI Enclosure
+                - lshw:product:
+                  SASX28 A.1
+                - lshw:vendor:
+                  LSILOGIC
+                - lshw:physid:
+                  3.0.0
+                - lshw:businfo:
+                  scsi@2:3.0.0
+                - lshw:version:
+                  7017
+                - lshw:configuration:
+                  - lshw:setting:
+                    id: ansiversion
+                    value: 3
+          - lshw:node:
+            id: pci:6
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:02
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              82801JI (ICH10 Family) PCI Express Root Port 5
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1c.4
+            - lshw:businfo:
+              pci@0000:00:1c.4
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: pcieport
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: pciexpress
+                PCI Express
+              - lshw:capability:
+                id: msi
+                Message Signalled Interrupts
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: normal_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 30
+              - lshw:resource:
+                type: ioport
+                value: d000(size=4096)
+              - lshw:resource:
+                type: memory
+                value: fb800000-fb8fffff
+              - lshw:resource:
+                type: ioport
+                value: c0200000(size=2097152)
+            - lshw:node:
+              id: ide
+              claimed: true
+              class: storage
+              handle: PCI:0000:02:00.0
+              - lshw:description:
+                IDE interface
+              - lshw:product:
+                JMB368 IDE controller
+              - lshw:vendor:
+                JMicron Technology Corp.
+              - lshw:physid:
+                0
+              - lshw:businfo:
+                pci@0000:02:00.0
+              - lshw:version:
+                00
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: pata_jmicron
+                - lshw:setting:
+                  id: latency
+                  value: 0
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: ide
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: pciexpress
+                  PCI Express
+                - lshw:capability:
+                  id: msi
+                  Message Signalled Interrupts
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+                - lshw:capability:
+                  id: rom
+                  extension ROM
+              - lshw:resources:
+                - lshw:resource:
+                  type: irq
+                  value: 16
+                - lshw:resource:
+                  type: ioport
+                  value: d400(size=8)
+                - lshw:resource:
+                  type: ioport
+                  value: dc00(size=4)
+                - lshw:resource:
+                  type: ioport
+                  value: d880(size=8)
+                - lshw:resource:
+                  type: ioport
+                  value: d800(size=4)
+                - lshw:resource:
+                  type: ioport
+                  value: d480(size=16)
+                - lshw:resource:
+                  type: memory
+                  value: fb8f0000-fb8fffff
+          - lshw:node:
+            id: usb:4
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1d.0
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #1
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1d
+            - lshw:businfo:
+              pci@0000:00:1d.0
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 23
+              - lshw:resource:
+                type: ioport
+                value: b480(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:6:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@6
+              - lshw:logicalname:
+                usb6
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:5
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1d.1
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #2
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1d.1
+            - lshw:businfo:
+              pci@0000:00:1d.1
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 19
+              - lshw:resource:
+                type: ioport
+                value: b800(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:7:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@7
+              - lshw:logicalname:
+                usb7
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:6
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1d.2
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB UHCI Controller #3
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1d.2
+            - lshw:businfo:
+              pci@0000:00:1d.2
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: uhci_hcd
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: uhci
+                Universal Host Controller Interface (USB1)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 18
+              - lshw:resource:
+                type: ioport
+                value: b880(size=32)
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:8:1
+              - lshw:product:
+                UHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic uhci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@8
+              - lshw:logicalname:
+                usb8
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 2
+                - lshw:setting:
+                  id: speed
+                  value: 12Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-1.10
+                  USB 1.1
+          - lshw:node:
+            id: usb:7
+            claimed: true
+            class: bus
+            handle: PCI:0000:00:1d.7
+            - lshw:description:
+              USB controller
+            - lshw:product:
+              82801JI (ICH10 Family) USB2 EHCI Controller #1
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1d.7
+            - lshw:businfo:
+              pci@0000:00:1d.7
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: driver
+                value: ehci-pci
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pm
+                Power Management
+              - lshw:capability:
+                id: debug
+                Debug port
+              - lshw:capability:
+                id: ehci
+                Enhanced Host Controller Interface (USB2)
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: irq
+                value: 23
+              - lshw:resource:
+                type: memory
+                value: fbcfc000-fbcfc3ff
+            - lshw:node:
+              id: usbhost
+              claimed: true
+              class: bus
+              handle: USB:2:1
+              - lshw:product:
+                EHCI Host Controller
+              - lshw:vendor:
+                Linux 4.13.0-36-generic ehci_hcd
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                usb@2
+              - lshw:logicalname:
+                usb2
+              - lshw:version:
+                4.13
+              - lshw:configuration:
+                - lshw:setting:
+                  id: driver
+                  value: hub
+                - lshw:setting:
+                  id: slots
+                  value: 6
+                - lshw:setting:
+                  id: speed
+                  value: 480Mbit/s
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: usb-2.00
+                  USB 2.0
+          - lshw:node:
+            id: pci:7
+            claimed: true
+            class: bridge
+            handle: PCIBUS:0000:01
+            - lshw:description:
+              PCI bridge
+            - lshw:product:
+              82801 PCI Bridge
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1e
+            - lshw:businfo:
+              pci@0000:00:1e.0
+            - lshw:version:
+              90
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:capabilities:
+              - lshw:capability:
+                id: pci
+              - lshw:capability:
+                id: subtractive_decode
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+            - lshw:resources:
+              - lshw:resource:
+                type: ioport
+                value: c000(size=4096)
+              - lshw:resource:
+                type: memory
+                value: fb700000-fb7fffff
+              - lshw:resource:
+                type: ioport
+                value: d8000000(size=134217728)
+            - lshw:node:
+              id: display
+              class: display
+              handle: PCI:0000:01:01.0
+              - lshw:description:
+                VGA compatible controller
+              - lshw:product:
+                ES1000
+              - lshw:vendor:
+                Advanced Micro Devices, Inc. [AMD/ATI]
+              - lshw:physid:
+                1
+              - lshw:businfo:
+                pci@0000:01:01.0
+              - lshw:version:
+                02
+              - lshw:width:
+                units: bits
+                32
+              - lshw:clock:
+                units: Hz
+                33000000
+              - lshw:configuration:
+                - lshw:setting:
+                  id: latency
+                  value: 64
+                - lshw:setting:
+                  id: mingnt
+                  value: 8
+              - lshw:capabilities:
+                - lshw:capability:
+                  id: pm
+                  Power Management
+                - lshw:capability:
+                  id: vga_controller
+                - lshw:capability:
+                  id: bus_master
+                  bus mastering
+                - lshw:capability:
+                  id: cap_list
+                  PCI capabilities listing
+              - lshw:resources:
+                - lshw:resource:
+                  type: memory
+                  value: d8000000-dfffffff
+                - lshw:resource:
+                  type: ioport
+                  value: c000(size=256)
+                - lshw:resource:
+                  type: memory
+                  value: fb7d0000-fb7dffff
+                - lshw:resource:
+                  type: memory
+                  value: c0000-dffff
+          - lshw:node:
+            id: isa
+            claimed: true
+            class: bridge
+            handle: PCI:0000:00:1f.0
+            - lshw:description:
+              ISA bridge
+            - lshw:product:
+              82801JIR (ICH10R) LPC Interface Controller
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1f
+            - lshw:businfo:
+              pci@0000:00:1f.0
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              32
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:capabilities:
+              - lshw:capability:
+                id: isa
+              - lshw:capability:
+                id: bus_master
+                bus mastering
+              - lshw:capability:
+                id: cap_list
+                PCI capabilities listing
+          - lshw:node:
+            id: serial
+            class: bus
+            handle: PCI:0000:00:1f.3
+            - lshw:description:
+              SMBus
+            - lshw:product:
+              82801JI (ICH10 Family) SMBus Controller
+            - lshw:vendor:
+              Intel Corporation
+            - lshw:physid:
+              1f.3
+            - lshw:businfo:
+              pci@0000:00:1f.3
+            - lshw:version:
+              00
+            - lshw:width:
+              units: bits
+              64
+            - lshw:clock:
+              units: Hz
+              33000000
+            - lshw:configuration:
+              - lshw:setting:
+                id: latency
+                value: 0
+            - lshw:resources:
+              - lshw:resource:
+                type: memory
+                value: fbcfe000-fbcfe0ff
+              - lshw:resource:
+                type: ioport
+                value: 400(size=32)
+        - lshw:node:
+          id: pci:1
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QuickPath Architecture Generic Non-core Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            101
+          - lshw:businfo:
+            pci@0000:fe:00.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:2
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QuickPath Architecture System Address Decoder
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            102
+          - lshw:businfo:
+            pci@0000:fe:00.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:3
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Link 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            103
+          - lshw:businfo:
+            pci@0000:fe:02.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:4
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Physical 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            104
+          - lshw:businfo:
+            pci@0000:fe:02.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:5
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Mirror Port Link 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            105
+          - lshw:businfo:
+            pci@0000:fe:02.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:6
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Mirror Port Link 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            106
+          - lshw:businfo:
+            pci@0000:fe:02.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:7
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Link 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            107
+          - lshw:businfo:
+            pci@0000:fe:02.4
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:8
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Physical 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            108
+          - lshw:businfo:
+            pci@0000:fe:02.5
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:9
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            109
+          - lshw:businfo:
+            pci@0000:fe:03.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:10
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Target Address Decoder
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10a
+          - lshw:businfo:
+            pci@0000:fe:03.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:11
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller RAS Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10b
+          - lshw:businfo:
+            pci@0000:fe:03.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:12
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Test Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10c
+          - lshw:businfo:
+            pci@0000:fe:03.4
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:13
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10d
+          - lshw:businfo:
+            pci@0000:fe:04.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:14
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10e
+          - lshw:businfo:
+            pci@0000:fe:04.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:15
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            10f
+          - lshw:businfo:
+            pci@0000:fe:04.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:16
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            110
+          - lshw:businfo:
+            pci@0000:fe:04.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:17
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            111
+          - lshw:businfo:
+            pci@0000:fe:05.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:18
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            112
+          - lshw:businfo:
+            pci@0000:fe:05.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:19
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            113
+          - lshw:businfo:
+            pci@0000:fe:05.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:20
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            114
+          - lshw:businfo:
+            pci@0000:fe:05.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:21
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            115
+          - lshw:businfo:
+            pci@0000:fe:06.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:22
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            116
+          - lshw:businfo:
+            pci@0000:fe:06.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:23
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            117
+          - lshw:businfo:
+            pci@0000:fe:06.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:24
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:fe
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            118
+          - lshw:businfo:
+            pci@0000:fe:06.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:25
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QuickPath Architecture Generic Non-core Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            119
+          - lshw:businfo:
+            pci@0000:ff:00.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:26
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QuickPath Architecture System Address Decoder
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11a
+          - lshw:businfo:
+            pci@0000:ff:00.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:27
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Link 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11b
+          - lshw:businfo:
+            pci@0000:ff:02.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:28
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Physical 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11c
+          - lshw:businfo:
+            pci@0000:ff:02.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:29
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Mirror Port Link 0
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11d
+          - lshw:businfo:
+            pci@0000:ff:02.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:30
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Mirror Port Link 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11e
+          - lshw:businfo:
+            pci@0000:ff:02.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:31
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Link 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            11f
+          - lshw:businfo:
+            pci@0000:ff:02.4
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:32
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series QPI Physical 1
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            120
+          - lshw:businfo:
+            pci@0000:ff:02.5
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:33
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            121
+          - lshw:businfo:
+            pci@0000:ff:03.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:34
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Target Address Decoder
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            122
+          - lshw:businfo:
+            pci@0000:ff:03.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:35
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller RAS Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            123
+          - lshw:businfo:
+            pci@0000:ff:03.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:36
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Test Registers
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            124
+          - lshw:businfo:
+            pci@0000:ff:03.4
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:37
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            125
+          - lshw:businfo:
+            pci@0000:ff:04.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:38
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            126
+          - lshw:businfo:
+            pci@0000:ff:04.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:39
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            127
+          - lshw:businfo:
+            pci@0000:ff:04.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:40
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 0 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            128
+          - lshw:businfo:
+            pci@0000:ff:04.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:41
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            129
+          - lshw:businfo:
+            pci@0000:ff:05.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:42
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12a
+          - lshw:businfo:
+            pci@0000:ff:05.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:43
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12b
+          - lshw:businfo:
+            pci@0000:ff:05.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:44
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 1 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12c
+          - lshw:businfo:
+            pci@0000:ff:05.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:45
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12d
+          - lshw:businfo:
+            pci@0000:ff:06.0
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:46
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Address
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12e
+          - lshw:businfo:
+            pci@0000:ff:06.1
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:47
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Rank
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            12f
+          - lshw:businfo:
+            pci@0000:ff:06.2
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000
+        - lshw:node:
+          id: pci:48
+          claimed: true
+          class: bridge
+          handle: PCIBUS:0000:ff
+          - lshw:description:
+            Host bridge
+          - lshw:product:
+            Xeon 5600 Series Integrated Memory Controller Channel 2 Thermal Control
+          - lshw:vendor:
+            Intel Corporation
+          - lshw:physid:
+            130
+          - lshw:businfo:
+            pci@0000:ff:06.3
+          - lshw:version:
+            02
+          - lshw:width:
+            units: bits
+            32
+          - lshw:clock:
+            units: Hz
+            33000000

@@ -1,0 +1,60 @@
+[global]
+rw=${RW}
+bs=${BLOCK_SIZE}
+ioengine=libaio
+iodepth=32
+numjobs=1
+direct=1
+size=5G
+runtime=60
+time_based
+per_job_logs=0
+group_reporting
+log_avg_msec=250
+fallocate=none
+buffer_compress_percentage=10
+# scramble_buffers=1
+# refill_buffers=1
+
+# [ceph-fuse-replicated]
+# stonewall
+# directory=/mnt/ceph-fuse-replicated
+# write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# 
+# [ceph-fuse-erasure_1]
+# stonewall
+# directory=/mnt/ceph-fuse-erasure_1
+# write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# 
+# [ceph-fuse-erasure_2]
+# stonewall
+# directory=/mnt/ceph-fuse-erasure_2
+# write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+# write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-FUSE
+
+[ceph-kern-replicated]
+stonewall
+directory=/mnt/ceph-kern-replicated
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+
+[ceph-kern-erasure_1]
+stonewall
+directory=/mnt/ceph-kern-erasure_1
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+
+[ceph-kern-erasure_2]
+stonewall
+directory=/mnt/ceph-kern-erasure_2
+write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+

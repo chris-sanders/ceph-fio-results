@@ -1,0 +1,29 @@
+ceph-fuse: (g=0): rw=randread, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+fio-2.16
+Starting 4 processes
+
+ceph-fuse: (groupid=0, jobs=4): err= 0: pid=788: Tue Feb 27 22:30:18 2018
+  read : io=29277MB, bw=499594KB/s, iops=487, runt= 60008msec
+    slat (usec): min=5766, max=14275, avg=8181.31, stdev=902.43
+    clat (usec): min=9, max=279405, avg=253526.94, stdev=12018.32
+     lat (msec): min=8, max=289, avg=261.71, stdev=12.10
+    clat percentiles (msec):
+     |  1.00th=[  237],  5.00th=[  243], 10.00th=[  245], 20.00th=[  249],
+     | 30.00th=[  251], 40.00th=[  253], 50.00th=[  255], 60.00th=[  255],
+     | 70.00th=[  258], 80.00th=[  260], 90.00th=[  265], 95.00th=[  265],
+     | 99.00th=[  269], 99.50th=[  273], 99.90th=[  277], 99.95th=[  277],
+     | 99.99th=[  281]
+    bw (KB  /s): min=106496, max=135168, per=25.00%, avg=124878.58, stdev=3864.51
+    lat (usec) : 10=0.01%, 20=0.01%
+    lat (msec) : 10=0.01%, 20=0.01%, 50=0.05%, 100=0.09%, 250=27.29%
+    lat (msec) : 500=72.53%
+  cpu          : usr=0.43%, sys=4.17%, ctx=235008, majf=0, minf=4459
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.2%, 32=99.6%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=29277/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+   READ: io=29277MB, aggrb=499594KB/s, minb=499594KB/s, maxb=499594KB/s, mint=60008msec, maxt=60008msec

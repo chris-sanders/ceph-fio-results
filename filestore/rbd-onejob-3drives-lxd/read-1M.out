@@ -1,0 +1,27 @@
+ceph-fuse: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=rbd, iodepth=32
+fio-2.16
+Starting 1 process
+rbd engine: RBD version: 1.12.0
+
+ceph-fuse: (groupid=0, jobs=1): err= 0: pid=5886: Wed Feb 28 04:36:43 2018
+  read : io=99118MB, bw=1651.3MB/s, iops=1651, runt= 60026msec
+    slat (usec): min=1, max=155, avg= 5.57, stdev= 4.10
+    clat (msec): min=2, max=67, avg=19.37, stdev= 7.96
+     lat (msec): min=2, max=67, avg=19.37, stdev= 7.96
+    clat percentiles (usec):
+     |  1.00th=[ 4576],  5.00th=[ 7776], 10.00th=[10176], 20.00th=[13120],
+     | 30.00th=[15168], 40.00th=[16768], 50.00th=[18304], 60.00th=[19840],
+     | 70.00th=[22144], 80.00th=[24960], 90.00th=[30080], 95.00th=[34560],
+     | 99.00th=[43264], 99.50th=[46336], 99.90th=[52480], 99.95th=[55040],
+     | 99.99th=[60672]
+    bw (MB  /s): min= 1324, max= 1972, per=99.99%, avg=1651.12, stdev=113.48
+    lat (msec) : 4=0.54%, 10=9.00%, 20=50.73%, 50=39.53%, 100=0.19%
+  cpu          : usr=25.13%, sys=73.50%, ctx=97028, majf=0, minf=191
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=100.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=99118/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+   READ: io=99118MB, aggrb=1651.3MB/s, minb=1651.3MB/s, maxb=1651.3MB/s, mint=60026msec, maxt=60026msec
