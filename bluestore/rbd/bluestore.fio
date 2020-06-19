@@ -58,24 +58,11 @@ buffer_compress_percentage=10
 # write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
 # write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
 
-# [ceph-rbd-replicated]
-# stonewall
-# directory=/tmp/fio
-# write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-# write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-# write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-
-# [ceph-erasure-5-3]
-# stonewall
-# directory=/mnt/erasure5.3/fio
-# write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-# write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-# write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
-
-[ceph-erasure-2-1]
+[ceph-rbd-replicated]
 stonewall
-directory=/mnt/erasure2.1/fio
+directory=/tmp/fio
 write_bw_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
 write_lat_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
 write_iops_log=/dev/shm/fio/${RW}-${BLOCK_SIZE}/${RW}-${BLOCK_SIZE}-KERNEL
+
 

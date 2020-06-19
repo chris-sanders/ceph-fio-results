@@ -1,0 +1,39 @@
+ceph-erasure-5-3: (g=0): rw=rw, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+fio-2.2.10
+Starting 1 process
+
+ceph-erasure-5-3: (groupid=0, jobs=1): err= 0: pid=120184: Fri Jun 19 01:13:05 2020
+  read : io=5139.0MB, bw=87449KB/s, iops=85, runt= 60176msec
+    slat (usec): min=38, max=702, avg=91.04, stdev=30.48
+    clat (msec): min=9, max=3384, avg=170.99, stdev=172.18
+     lat (msec): min=9, max=3384, avg=171.08, stdev=172.18
+    clat percentiles (msec):
+     |  1.00th=[   19],  5.00th=[   27], 10.00th=[   36], 20.00th=[   52],
+     | 30.00th=[   70], 40.00th=[   91], 50.00th=[  120], 60.00th=[  155],
+     | 70.00th=[  202], 80.00th=[  265], 90.00th=[  367], 95.00th=[  469],
+     | 99.00th=[  742], 99.50th=[  914], 99.90th=[ 1172], 99.95th=[ 3326],
+     | 99.99th=[ 3392]
+    bw (KB  /s): min=38374, max=108544, per=100.00%, avg=87542.81, stdev=12943.86
+  write: io=4969.0MB, bw=84556KB/s, iops=82, runt= 60176msec
+    slat (usec): min=36, max=3917, avg=110.98, stdev=123.36
+    clat (msec): min=21, max=3504, avg=210.34, stdev=194.78
+     lat (msec): min=21, max=3504, avg=210.45, stdev=194.78
+    clat percentiles (msec):
+     |  1.00th=[   30],  5.00th=[   41], 10.00th=[   51], 20.00th=[   70],
+     | 30.00th=[   90], 40.00th=[  119], 50.00th=[  153], 60.00th=[  194],
+     | 70.00th=[  255], 80.00th=[  326], 90.00th=[  449], 95.00th=[  562],
+     | 99.00th=[  824], 99.50th=[  930], 99.90th=[ 1713], 99.95th=[ 3458],
+     | 99.99th=[ 3490]
+    bw (KB  /s): min=32768, max=128000, per=99.90%, avg=84472.70, stdev=18274.25
+    lat (msec) : 10=0.01%, 20=0.93%, 50=13.51%, 100=24.38%, 250=34.86%
+    lat (msec) : 500=20.73%, 750=4.47%, 1000=0.81%, 2000=0.23%, >=2000=0.07%
+  cpu          : usr=0.26%, sys=2.01%, ctx=8387, majf=0, minf=30
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.2%, 16=0.3%, 32=99.4%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=5139/w=4969/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+   READ: io=5139.0MB, aggrb=87449KB/s, minb=87449KB/s, maxb=87449KB/s, mint=60176msec, maxt=60176msec
+  WRITE: io=4969.0MB, aggrb=84556KB/s, minb=84556KB/s, maxb=84556KB/s, mint=60176msec, maxt=60176msec

@@ -1,0 +1,27 @@
+ceph-erasure-5-3: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+fio-2.2.10
+Starting 1 process
+
+ceph-erasure-5-3: (groupid=0, jobs=1): err= 0: pid=119484: Fri Jun 19 01:04:56 2020
+  read : io=7745.0MB, bw=131609KB/s, iops=128, runt= 60261msec
+    slat (usec): min=37, max=1760, avg=114.62, stdev=73.32
+    clat (msec): min=10, max=1373, avg=248.74, stdev=230.89
+     lat (msec): min=10, max=1373, avg=248.85, stdev=230.89
+    clat percentiles (msec):
+     |  1.00th=[   20],  5.00th=[   28], 10.00th=[   37], 20.00th=[   56],
+     | 30.00th=[   82], 40.00th=[  119], 50.00th=[  169], 60.00th=[  237],
+     | 70.00th=[  314], 80.00th=[  433], 90.00th=[  578], 95.00th=[  709],
+     | 99.00th=[ 1020], 99.50th=[ 1090], 99.90th=[ 1270], 99.95th=[ 1336],
+     | 99.99th=[ 1369]
+    bw (KB  /s): min=95955, max=155648, per=99.85%, avg=131413.91, stdev=8142.92
+    lat (msec) : 20=1.27%, 50=16.20%, 100=18.09%, 250=26.70%, 500=22.78%
+    lat (msec) : 750=11.13%, 1000=2.71%, 2000=1.12%
+  cpu          : usr=0.24%, sys=1.60%, ctx=10511, majf=0, minf=16422
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.2%, 16=0.4%, 32=99.2%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=7745/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+   READ: io=7745.0MB, aggrb=131608KB/s, minb=131608KB/s, maxb=131608KB/s, mint=60261msec, maxt=60261msec

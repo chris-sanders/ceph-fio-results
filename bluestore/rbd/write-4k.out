@@ -1,0 +1,30 @@
+ceph-rbd-replicated: (g=0): rw=write, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=32
+fio-2.2.10
+Starting 1 process
+
+ceph-rbd-replicated: (groupid=0, jobs=1): err= 0: pid=118301: Fri Jun 19 00:48:30 2020
+  write: io=297440KB, bw=4955.7KB/s, iops=1238, runt= 60020msec
+    slat (usec): min=6, max=17378, avg=24.86, stdev=102.27
+    clat (msec): min=2, max=903, avg=25.80, stdev=52.51
+     lat (msec): min=2, max=903, avg=25.83, stdev=52.51
+    clat percentiles (msec):
+     |  1.00th=[    8],  5.00th=[   11], 10.00th=[   13], 20.00th=[   18],
+     | 30.00th=[   18], 40.00th=[   18], 50.00th=[   19], 60.00th=[   21],
+     | 70.00th=[   22], 80.00th=[   27], 90.00th=[   32], 95.00th=[   40],
+     | 99.00th=[  124], 99.50th=[  578], 99.90th=[  750], 99.95th=[  799],
+     | 99.99th=[  906]
+    bw (KB  /s): min=  341, max=10613, per=100.00%, avg=5317.78, stdev=2082.05
+    lat (msec) : 4=0.03%, 10=4.57%, 20=54.90%, 50=37.02%, 100=2.17%
+    lat (msec) : 250=0.62%, 500=0.15%, 750=0.42%, 1000=0.12%
+  cpu          : usr=0.79%, sys=3.00%, ctx=27088, majf=0, minf=73
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=100.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=74360/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+  WRITE: io=297440KB, aggrb=4955KB/s, minb=4955KB/s, maxb=4955KB/s, mint=60020msec, maxt=60020msec
+
+Disk stats (read/write):
+  rbd1: ios=0/74287, merge=0/22, ticks=0/1906751, in_queue=1770840, util=39.15%
